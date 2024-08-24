@@ -42,9 +42,9 @@ After setting up the project, you can build and run the filtering system.
 ### Build the Project
 
    To compile the TypeScript code into JavaScript:
-      ```bash
+      ```
       npm run build
-      
+      ```
    Run the Tests:
    To execute the test suite:
       ```bash
