@@ -26,7 +26,7 @@ To get started with this project:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/content-filter.git
-
+   ```
 2. Navigate into the project directory:
    ```bash
      cd content-filter
@@ -44,12 +44,12 @@ After setting up the project, you can build and run the filtering system.
    To compile the TypeScript code into JavaScript:
       ```bash
       npm run build
-
+      ```
    Run the Tests:
    To execute the test suite:
       ```bash
       npm test
-
+      ```
 ### Filtering Approach
 
 The filtering system uses a Strategy Pattern, which decouples the filtering logic from specific implementations. Here's how it works:
