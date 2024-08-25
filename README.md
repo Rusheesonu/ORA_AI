@@ -21,35 +21,17 @@ This specific implementation focuses on detecting mentions of "Bitly" (e.g., `bi
 
 ## Installation
 
-To get started with this project:
+To get started with this project Build, Run and Test:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/content-filter.git
+   cd content-filter
+   npm install
+   npm run build
+   npm test
    ```
-2. Navigate into the project directory:
-   ```bash
-     cd content-filter
-
-3. Install dependencies:
-   ```bash
-    npm install
-
-## Usage
-
-After setting up the project, you can build and run the filtering system.
-
-### Build the Project
-
-   To compile the TypeScript code into JavaScript:
-      ```
-      npm run build
-      ```
-   Run the Tests:
-   To execute the test suite:
-      ```bash
-      npm test
-      ```
+   
 ### Filtering Approach
 
 The filtering system uses a Strategy Pattern, which decouples the filtering logic from specific implementations. Here's how it works:
